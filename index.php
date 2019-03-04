@@ -7,6 +7,7 @@ use Components\SampleComponent3A;
 use Components\SampleComponent3B;
 use Components\SampleComponent4;
 use Generators\SampleGenerator;
+use Closures\SampleClosure;
 
 print('<h1>Components</h1>');
 
@@ -43,4 +44,10 @@ foreach ($generator->getRange() as $range)
 }
 
 
+print('<h1>Closures</h1>');
+$closure = new SampleClosure();
+print($closure->doTest1());
+print('<br>');
+print_r($closure->doTest2());
+print('<br>');
 ?>

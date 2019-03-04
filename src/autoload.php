@@ -10,4 +10,6 @@ require_once __DIR__ . '\Components\SampleComponent3B.php';
 require_once __DIR__ . '\Components\SampleComponent4.php';
 
 require_once __DIR__ . '\Generators\SampleGenerator.php';
+
+require_once __DIR__ . '\Closures\SampleClosure.php';
 ?>
