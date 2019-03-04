@@ -8,4 +8,6 @@ require_once __DIR__ . '\Components\SampleComponent3.php';
 require_once __DIR__ . '\Components\SampleComponent3A.php';
 require_once __DIR__ . '\Components\SampleComponent3B.php';
 require_once __DIR__ . '\Components\SampleComponent4.php';
+
+require_once __DIR__ . '\Generators\SampleGenerator.php';
 ?>
