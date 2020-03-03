@@ -1,6 +1,7 @@
 {
-    "name": "template-php-project",
+    "name": "yypbd/template-php-project",
     "description": "template-php-project",
+    "license": "MIT",
     "autoload": {
         "classmap": [
             "src/"
