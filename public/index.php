@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/src/autoload.php';
+require_once '../src/autoload.php';
 
 use Components\SampleComponent1;
 use Components\SampleComponent2;
@@ -50,4 +50,4 @@ print($closure->doTest1());
 print('<br>');
 print_r($closure->doTest2());
 print('<br>');
-?>
+
