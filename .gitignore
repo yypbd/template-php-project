@@ -1,5 +1,6 @@
 .vscode
-vendor
 coverage
 
 .phpunit.result.cache
+
+vendor/
