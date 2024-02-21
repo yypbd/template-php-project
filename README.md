@@ -31,6 +31,24 @@ phive install phpDocumentor
 
 ## Tests 
 
+### test
+
+```bash
+# windows
+win_test.bat
+
+# macos
+./vendor/bin/phpunit -c phpunit.xml
+```
+### coverage
+
+```bash
+# windows
+win_coverage.bat
+
+# macos
+./vendor/bin/phpunit -c phpunit.xml --coverage-html coverage
+```
 
 ## reference
 
