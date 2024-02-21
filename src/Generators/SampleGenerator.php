@@ -3,7 +3,7 @@ namespace Generators;
 
 class SampleGenerator
 {
-    public function getValue()
+    public function getValue(): \Generator
     {
         yield 'value0';
         yield 'value1';
@@ -12,7 +12,7 @@ class SampleGenerator
         yield 'value4';
     }
 
-    public function getRange()
+    public function getRange(): \Generator
     {
         for($i = 0; $i < 3; $i++)
         {
@@ -20,4 +20,3 @@ class SampleGenerator
         }
     }
 }
-?>

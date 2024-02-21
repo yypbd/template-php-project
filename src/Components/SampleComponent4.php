@@ -1,15 +1,14 @@
 <?php
 namespace Components;
 
-use Components\SampleInterface;
+use Traits\SampleTrait;
 
 class SampleComponent4 implements SampleInterface
 {
-    use \Traits\SampleTrait;
+    use SampleTrait;
 
-    public function getName()
+    public function getName(): string
     {
         return 'SampleComponent4';
     }
 }
-?>

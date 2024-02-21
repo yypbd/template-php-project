@@ -1,8 +1,6 @@
 <?php
 namespace Components;
 
-use Components\SampleInterface;
-
 abstract class SampleComponent3 implements SampleInterface
 {
     protected $_value;
@@ -17,9 +15,8 @@ abstract class SampleComponent3 implements SampleInterface
         return $this->_value;
     }
 
-    public function toString()
+    public function toString(): string
     {
-        return 'name: ' . $this->getName() . ', value: ' . (string)$this->getValue();
+        return 'name: ' . $this->getName() . ', value: ' . $this->getValue();
     }
 }
-?>

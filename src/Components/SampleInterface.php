@@ -3,7 +3,5 @@ namespace Components;
 
 interface SampleInterface
 {
-    public function getName();
+    public function getName(): string;
 }
-
-?>

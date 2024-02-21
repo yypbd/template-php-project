@@ -3,24 +3,20 @@ namespace Closures;
 
 class SampleClosure
 {
-    public function doTest1()
+    public function doTest1(): string
     {
-        $closure = function($name) {
+        $closure = static function($name) {
             return 'Hello~ '.$name;
         };
         
         return $closure('yypbd');
     }
 
-    public function doTest2()
+    public function doTest2(): array
     {
-        $numbers = array_map(function ($number) {
+        return array_map(static function ($number) {
             return $number + 1;
         }, [3, 4, 5]);
-
-        return $numbers;
     }
 
 }
-
-?>

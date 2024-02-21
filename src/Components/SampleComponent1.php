@@ -1,13 +1,10 @@
 <?php
 namespace Components;
 
-use Components\SampleInterface;
-
 class SampleComponent1 implements SampleInterface
 {
-    public function getName()
+    public function getName(): string
     {
         return 'SampleComponent1';
     }
 }
-?>
