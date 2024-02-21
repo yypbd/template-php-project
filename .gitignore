@@ -4,3 +4,8 @@ coverage
 .phpunit.result.cache
 
 vendor/
+
+tools/
+.phive/
+.phpdoc/
+docs/
