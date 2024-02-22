@@ -21,12 +21,14 @@ phive install phpDocumentor
 
 ### Build 
 
+#### phpdoc
+
 ```bash
 # build doc
-./tools/phpDocumentator run -d ./src -t docs/web
+./tools/phpDocumentor run -d ./src -t docs/web
 
 # build doc with configuration
-./tools/phpDocumentator run
+./tools/phpDocumentor run
 ```
 
 ## Tests 
